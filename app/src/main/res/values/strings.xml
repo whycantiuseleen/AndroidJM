@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidJavaMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="my_cart">My Cart</string>
+    <string name="delete">DELETE</string>
+    <string name="action_settings">Settings</string>
+    <string name="artstransition">artstransition</string>
+    <string name="culturetransition">culturetransition</string>
+    <string name="artsciencetransition">artsciencetransition</string>
+    <string name="reddottransition">reddottransition</string>
+    <string name="samtransition">samtransition</string>
+    <string name="buddhatransition">buddhatransition</string>
+    <string name="peranakantransition">peranakantransition</string>
+    <string name="ancienttransition">ancienttransition</string>
+    <string name="addlocation">Add to Travel Itinerary</string>
+    <string name="viewitinerary">View Itinerary</string>
+    <string name="input_budget">Input Budget</string>
+    <string name="budget">Budget:</string>
+</resources>

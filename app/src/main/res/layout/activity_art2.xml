@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    tools:context="com.example.frank.androidjavamap.ArtActivity2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/RDImage"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@drawable/reddot"
+                android:transitionName="@string/reddottransition"/>
+            <Button
+                android:id="@+id/btnAddReddot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addRDDM"
+                android:text="@string/addlocation"
+                android:layout_below="@id/RDImage"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@drawable/reddot3"
+                android:layout_below="@+id/btnAddReddot"/>
+
+            <Button
+                android:id="@+id/viewlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="#000000"
+                android:onClick="view"
+                android:text="click to view location on map"
+                android:textColor="#fff"
+                android:textSize="8dp"
+                android:layout_below="@+id/btnAddReddot"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="25dp"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

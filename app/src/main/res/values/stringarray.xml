@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navibar_array">
+        <item name="id">Select</item>
+        <item>Main Menu</item>
+        <item>Travel Planner</item>
+        <item>View Itinerary</item>
+        <item>View Map</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.frank.androidjavamap.ArtsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/artscience"
+                android:transitionName="@string/artsciencetransition"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageView2" />
+
+            <Button
+                android:id="@+id/btnAddSAM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView2"
+                android:onClick="addASM"
+                android:text="@string/addlocation" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btnAddSAM"
+                android:background="@drawable/artscience3" />
+
+            <Button
+                android:id="@+id/viewlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btnAddSAM"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="135dp"
+                android:background="#000000"
+                android:onClick="view"
+                android:text="click to view location on map"
+                android:textColor="#fff"
+                android:textSize="8dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.frank.androidjavamap.CultureActivity3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/pimage"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/peranakan2"
+                android:transitionName="@string/peranakantransition"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:id="@+id/btnAddPeranakan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addPM"
+                android:layout_below="@+id/pimage"
+                android:text="@string/addlocation"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_below="@id/btnAddPeranakan"
+                android:background="@drawable/peranakan3"/>
+
+            <Button
+                android:id="@+id/viewlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="#000000"
+                android:onClick="view"
+                android:text="click to view location on map"
+                android:textColor="#fff"
+                android:textSize="8dp"
+                android:layout_below="@+id/btnAddPeranakan"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="30dp"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#212121"
+    android:orientation="vertical"
+    tools:context="com.example.frank.androidjavamap.Main2Activity">
+    <!--<Button-->
+        <!--android:id="@+id/btnItinerary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="@string/viewitinerary"-->
+        <!--android:onClick="viewlocation"/>-->
+    <ScrollView
+        android:layout_below="@id/btnItinerary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageArts"
+                android:layout_width="340dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/arts6"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="20dp"
+                android:transitionName="@string/artstransition"/>
+
+            <ImageButton
+                android:id="@+id/imageCulture"
+                android:layout_width="340dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/culture5"
+                android:transitionName="@string/culturetransition"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
