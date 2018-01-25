@@ -1,2 +1,2 @@
 # AndroidJM
-Android Java Map
+Travel application for tourists - Arts&Culture, Cost/shortest distance calculation
